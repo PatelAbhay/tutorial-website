@@ -1,6 +1,20 @@
 #main-nav-bar {
     border: 5px solid black;
     text-align: center;
+    background-color: black;
+    overflow: hidden;
+}
+
+#main-nav-bar h1{
+    float: left;
+    color: white;
+}
+
+#main-nav-bar a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: x-large;
 }
 
 #splash-container{
