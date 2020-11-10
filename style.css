@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+#splash-container{
+    display: flex;
+}
+
 #name-of-website {
     border: 5px solid black;
     text-align: center;
