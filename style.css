@@ -27,3 +27,8 @@
     height: 250px;
     margin: 10px;
 }
+
+#info-container{
+    border: 5px solid black;
+    height: 50vh;
+}
