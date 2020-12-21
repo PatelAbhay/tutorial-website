@@ -1,34 +1,351 @@
+/* -- Index Section -- */
+/* --------------------------------------------- Making it look bigger --------------------------------------------- */
+
+body {
+    background: radial-gradient(circle, rgba(14,1,37,1) 0%, rgba(10,18,31,1) 70%, rgba(0,0,0,1) 100%);
+    font-family: Nunito,'Segoe UI','Helvetica Neue',Helvetica,Roboto,Oxygen,Ubuntu,Cantarell,'Fira Sans','Droid Sans',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
 #main-nav-bar {
     border: 5px solid black;
     text-align: center;
 }
 
 #splash-container{
-    display: flex;
+    /* background: radial-gradient(circle, rgba(14,1,37,1) 0%, rgba(10,18,31,1) 70%, rgba(0,0,0,1) 100%); */
+    font-family: Nunito,'Segoe UI','Helvetica Neue',Helvetica,Roboto,Oxygen,Ubuntu,Cantarell,'Fira Sans','Droid Sans',sans-serif;
+    height: 50vh;
+    width: 80vw;
+    margin: auto;
 }
 
 #name-of-website {
-    border: 5px solid black;
-    text-align: center;
-    width: 200px;
+    width: 250px;
+    height: 100px;
     margin: 10px;
+    margin-left: 300px;
+    padding-top: 100px;
+}
+
+#name-of-website-text {
+    color: white;
+    font-size: xx-large;
 }
 
 #website-logo {
-    border: 5px solid black;
+    border: 5px solid green;
     width: 50px;
     height: 50px;
     margin: 10px;
+    float: right;
+    margin-right: 300px;
 }
 
 #brief-description {
-    border: 5px solid black;
     width: 300px;
     height: 250px;
     margin: 10px;
+    margin-left: 300px;
+    
+}
+
+#description-body-text {
+    color: white;
 }
 
 #info-container{
-    border: 5px solid black;
+    font-family: Nunito,'Segoe UI','Helvetica Neue',Helvetica,Roboto,Oxygen,Ubuntu,Cantarell,'Fira Sans','Droid Sans',sans-serif;
+    /* background: radial-gradient(circle, rgba(14,1,37,1) 0%, rgba(10,18,31,1) 70%, rgba(0,0,0,1) 100%); */
+    height: 70vh;
+    width: 80vw;
+    margin: auto;
+}
+
+.info-box-row {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.info-box {
+    box-shadow: 0 0 5px #282929;
+    background: #1a1c23;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.info-box-header {
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    font-size: x-large;
+}
+
+.info-box-paragraph {
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+#start-your-journey-container {
+    font-family: Nunito,'Segoe UI','Helvetica Neue',Helvetica,Roboto,Oxygen,Ubuntu,Cantarell,'Fira Sans','Droid Sans',sans-serif;
+    /* background: radial-gradient(circle, rgba(14,1,37,1) 0%, rgba(10,18,31,1) 70%, rgba(0,0,0,1) 100%); */
     height: 50vh;
+    width: 80vw;
+    margin: auto;
+}
+
+#start-big-header {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+#lessons-button {
+    border: 1px solid black;
+    width: 20vw;
+    height: 10vh;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#lessons-button-text {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+#testimonials-container {
+    font-family: Nunito,'Segoe UI','Helvetica Neue',Helvetica,Roboto,Oxygen,Ubuntu,Cantarell,'Fira Sans','Droid Sans',sans-serif;
+    /* background: radial-gradient(circle, rgba(14,1,37,1) 0%, rgba(10,18,31,1) 70%, rgba(0,0,0,1) 100%); */
+    height: 70vh;
+    width: 80vw;
+    margin: auto;
+}
+
+#testimonials-big-header {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.testimonials-row {
+    display: flex;
+    width: 70vw;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.testimonial-box {
+    box-shadow: 0 0 5px #282929;
+    background: #1a1c23;
+    height: 30vh;
+    width: 15vw;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.testimonial-header {
+    color: white;
+    text-align: center;
+}
+
+.testimonial-career {
+    color: white;
+    font-style: italic;
+    font-size: small;
+    text-align: center;
+}
+
+.testimonial-review {
+    color: white;
+    font-size: small;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+/* Keep footer at the bottom of the index's css file please! */
+
+#footer {
+    height: 10vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer-line {
+    width: 90vw;
+    margin: auto;
+}
+
+#footer-bar-container {
+    width: 90vw;
+    margin: auto;
+    display: flex;
+}
+
+#footer-item-margin-container {
+    margin: auto;
+    display: flex;
+}
+
+.footer-bar-item {
+    color: white;
+    margin-right: 10px;
+}
+
+/* -- END of Index Section -- */
+/* --------------------------------------------- Making it look bigger --------------------------------------------- */
+
+/* -- Lessons Section -- */
+/* --------------------------------------------- Making it look bigger --------------------------------------------- */
+
+#title-container {
+    height: 50vh;
+    width: 80vw;
+    margin: auto;
+}
+
+#title-box {
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 100px;
+}
+
+#title-box-text {
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#languages-container {
+    font-family: Nunito,'Segoe UI','Helvetica Neue',Helvetica,Roboto,Oxygen,Ubuntu,Cantarell,'Fira Sans','Droid Sans',sans-serif;
+    /* background: radial-gradient(circle, rgba(14,1,37,1) 0%, rgba(10,18,31,1) 70%, rgba(0,0,0,1) 100%); */
+    height: 70vh;
+    width: 80vw;
+    margin: auto;
+}
+
+.language-row {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+}
+
+.language-box {
+    box-shadow: 0 0 5px #282929;
+    background: #1a1c23;
+    height: 300px;
+    width: 250px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.language-header {
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.language-logo {
+    width: 40%;
+    margin-top: 10px;
+}
+
+#language-under-construction {
+    background: repeating-linear-gradient(
+    45deg,
+    rgba(255, 238, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 10px,
+    rgba(0, 0, 0, 0.2) 10px,
+    rgba(0, 0, 0, 0.3) 20px
+    ) !important;
+}
+
+.language-box:hover {
+    background: #100561 !important;
+    box-shadow: 0 0 5px #ffffff;
+    font-weight: bold;
+}
+
+
+/* -- END of Lessons Section -- */
+/* --------------------------------------------- Making it look bigger --------------------------------------------- */
+
+/* -- Languages Section -- */
+/* --------------------------------------------- Making it look bigger --------------------------------------------- */
+
+.main-body-container {
+    width: 80vw;
+    display: flex;
+    margin: auto;
+}
+
+.left-bar-container {
+    width: 300px;
+    margin-left: 100px;
+}
+
+.left-bar-lesson-box {
+    border-radius: 40px;
+    border: 1px solid white;
+    margin: 5px;
+}
+
+.left-bar-lesson-box:hover {
+    background-color: white !important;
+}
+
+.left-bar-lesson-box:hover .left-bar-lesson-name {
+    color: black;
+    font-weight: normal !important;
+}
+
+.left-bar-lesson-name {
+    color: white;
+    text-align: center;
+}
+
+.lesson-body-outer-container {
+    width: 1600px;
+}
+
+.lesson-body-container {
+    width: 800px;
+    margin-left: 100px;
+}
+
+.lesson-body-text {
+    color: white;
+}
+
+.lesson-header-text {
+    color: white;
+    font-weight: bold;
+}
+
+#lesson-currently-at {
+    background: #100561;
+}
+
+#lesson-currently-at-text {
+    font-weight: bold;
 }
